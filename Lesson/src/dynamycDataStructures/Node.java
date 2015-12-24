@@ -1,6 +1,6 @@
 package dynamycDataStructures;
 
-public class Node {
+class Node {
 	
 	public Node(int value, Node next) {
 		this.value = value;
