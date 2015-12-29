@@ -16,6 +16,7 @@ public class App02 {
 		System.out.println(toString(tailB));
 		
 		System.out.println(toString(merge(tailA, tailB)));
+		System.out.println(toString(copy(merge(tailA, tailB))));
 
 	}
 //	Итерация
@@ -39,8 +40,13 @@ public class App02 {
 				return new Node(tailB.value, merge(tailB.next, tailA));
 			}
 		}
-		else return (tailA == null) ? tailA :tailB;
+		else return (tailB == null) ? tailA :tailB;
 	}
+//	Копирование
+	public static Node copy (Node tail){
+		return tail == null ? null : new Node(tail.value, copy (tail.next));
+	}
+	
 //	Печать
 	public static String toString(Node tail) {
 		String result = "";
