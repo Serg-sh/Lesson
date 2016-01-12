@@ -5,18 +5,25 @@ import java.util.Arrays;
 public class App02 {
 
 	public static void main(String[] args) {
+		System.out.println("Генерация итеративным методом" );
 		System.out.println(toString(genIter(0, 1, 2, 3, 4)));
 		
+		System.out.println("Генерация рекурсивным методом" );
 		System.out.println(toString(genRec(5, 6, 7, 8, 9)));
 		
+		System.out.println("Слияние" );
 		Node tailA = genIter(10, 20, 25, 25, 30);
-		System.out.println(toString(tailA));
+		System.out.println("tailA " + toString(tailA));
+		Node tailB = genRec(15, 15, 25, 35, 40);
+		System.out.println("tailB" + toString(tailB));
+		System.out.println("Смерженные" + toString(merge(tailA, tailB)));
 		
-		Node tailB = genIter(15, 15, 25, 35, 40);
-		System.out.println(toString(tailB));
-		
-		System.out.println(toString(merge(tailA, tailB)));
-		System.out.println(toString(copy(merge(tailA, tailB))));
+		System.out.println("Копирование");
+		Node tailA1 = genIter(11, 21, 26, 27, 36);
+		Node tailC = merge(merge(tailA1, tailB), tailA);
+		System.out.println("tailC -> " + toString(tailC));
+		Node tailD = copy(tailC);
+		System.out.println("tailD -> " + toString(tailD));
 
 	}
 //	Итерация
