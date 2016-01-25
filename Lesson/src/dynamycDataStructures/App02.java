@@ -12,7 +12,7 @@ public class App02 {
 		System.out.println(toString(genRec(5, 6, 7, 8, 9)));
 		
 		System.out.println("Слияние" );
-		Node tailA = genIter(10, 20, 25, 25, 30);
+		Node tailA = genIter(10, 20, 25, 25, 30, 35);
 		System.out.println("tailA " + toString(tailA));
 		Node tailB = genRec(15, 15, 25, 35, 40);
 		System.out.println("tailB" + toString(tailB));
@@ -24,8 +24,29 @@ public class App02 {
 		System.out.println("tailC -> " + toString(tailC));
 		Node tailD = copy(tailC);
 		System.out.println("tailD -> " + toString(tailD));
+		System.out.println("Вставка в конец");
+		System.out.println("tailA " + toString(tailA));
+		tailA = addLast(tailA, 40);
+		System.out.println("tailA " + toString(tailA));
+		System.out.println("Вставка в позицию");
+		System.out.println("tailA " + toString(tailA));
+		
+//		System.out.println("tailA " + toString(insertPosition(tailA, 1, 5)));
 
 	}
+//	Add Last
+	public static Node addLast(Node tail, int lastValue){
+
+		return tail.next == null ? new Node(tail.value, new Node(lastValue, null)): new Node(tail.value, addLast(tail.next, lastValue));
+		
+	}
+//	Вставка в позицию
+//	public static Node insertPosition(Node tail, int position, int insertValues) {
+//		
+//		 
+//		
+//	}
+	
 //	Итерация
 	public static Node genIter(int... values) {
 		Node tail = null;
