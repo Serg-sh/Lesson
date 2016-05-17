@@ -1,8 +1,9 @@
 package ua.serg.Collectons;
 
 
-import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 
 /**
@@ -10,13 +11,20 @@ import java.util.List;
  */
 public class App04 {
     public static void main(String[] args) {
-        List list = new ArrayList<>(Arrays.asList("AA","BBB","CCCC"));
+        List list = new LinkedList<>(Arrays.asList("AA", "BBB", "CCCC"));
         System.out.println(list);
-        f(1, 2, 3);
+        f(list, "1", "2", "3");
+        Iterator<String> iter = list.iterator();
+        while (iter.hasNext()) {
+            System.out.println(iter.next());
+        }
 
     }
-    public static void  f(int... arr){
 
+    public static void f(List<String> list, String... arr) {
+        for (String str : arr) {
+            list.add(str);
+        }
     }
 }
 
