@@ -6,11 +6,13 @@ package ua.serg.Multithreading.RabbitAttack;
 public class Field {
     public static void main(String[] args) throws InterruptedException {
 
-        for (int i =0; i<200;i++) {
+        for (int i = 0; i < 200; i++) {
+
             Thread.currentThread().sleep(150);
-            new Thread(new Rabbit(i)).start();
+
         }
-
-
     }
+
+
 }
+
