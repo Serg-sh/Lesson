@@ -1,8 +1,46 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="45045d30-3d8a-411b-a815-77d0eb5da833" name="Default" comment="">
+    <list default="true" id="45045d30-3d8a-411b-a815-77d0eb5da833" name="Default" comment="1307.2016">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/OOP/Polymorf/App00.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/OOP/TestInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/Start.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/air/Boing747.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/air/Tu134.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/car/Niva.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/car/Porshe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/factory/RussianFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/factory/USAFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/interfaces/Aircraft.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/interfaces/Car.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/interfaces/TransportFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/adapters/PageListPrinter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/adapters/PrinterAdapter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/objects/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/objects/Printer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/Start.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/decorators/BorderDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/decorators/ColorDecorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/decorators/Decorator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/objects/Component.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/objects/TextView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/objects/Window.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/facade/CarFacade.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/object/Client.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Door.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Wheel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Zazhiganie.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Car.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/CarSelector.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Jeep.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/NewJeep.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Porshe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/RoadType.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Start.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Singleton/Start.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Singleton/TestSingleton.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lesson/src/ua/serg/OOP/type/A.java" afterPath="$PROJECT_DIR$/Lesson/src/ua/serg/OOP/type/A.java" />
     </list>
     <ignored path="Lesson.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,60 +70,74 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Parent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/OOP/Construction/Parent.java">
+      <file leaf-file-name="CarFacade.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/facade/CarFacade.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="A.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/OOP/Construction/A.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+              <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
               <folding>
-                <element signature="docComment;class#A#0" expanded="false" />
-                <element signature="e#103#104#0" expanded="false" />
-                <element signature="e#142#143#0" expanded="false" />
-                <element signature="e#158#159#0" expanded="false" />
-                <element signature="e#199#200#0" expanded="false" />
-                <element signature="class#B#0" expanded="false" />
-                <element signature="e#232#233#0" expanded="false" />
-                <element signature="e#271#272#0" expanded="false" />
-                <element signature="e#287#288#0" expanded="false" />
-                <element signature="e#328#329#0" expanded="false" />
-                <element signature="class#C#0" expanded="false" />
-                <element signature="e#361#362#0" expanded="false" />
-                <element signature="e#400#401#0" expanded="false" />
-                <element signature="e#416#417#0" expanded="false" />
-                <element signature="e#457#458#0" expanded="false" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="A.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/OOP/type/A.java">
+      <file leaf-file-name="Door.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Door.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43001688">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding>
+                <element signature="e#126#127#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Client.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/object/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="X.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/OOP/Construction/X.java">
+      <file leaf-file-name="PrinterAdapter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/adapters/PrinterAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.17142858">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wheel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Wheel.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
-                <element signature="e#505#506#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#127#128#0" expanded="true" />
+                <element signature="e#175#176#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Zazhiganie.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Zazhiganie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <element signature="e#131#132#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -96,6 +148,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
+        <option value="Singleton" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -116,33 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Lesson/src/ua/sh/serg/exception/App00.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/exception/App00.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/exception/App01.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/exception/App02.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/exception/App03.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/IO/App00.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/IO/App01.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/IO/App02.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/IO/App03.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/IO/App04.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/IO/App05.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App00.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App01.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App02.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App03.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App04.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App00.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/RunableImpl.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App01.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App03.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App03x.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App04.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App10.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App20.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App30.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/Monitor/App00.java" />
-        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/Monitor/SingleElementBuffer.java" />
         <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/Monitor/Producer.java" />
         <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/Monitor/ProduserConsumerExample_1x1.java" />
         <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/Monitor/Consumer.java" />
@@ -155,6 +183,45 @@
         <option value="$PROJECT_DIR$/Lesson/src/ua/serg/OOP/Construction/A.java" />
         <option value="$PROJECT_DIR$/Lesson/src/ua/serg/OOP/Construction/X.java" />
         <option value="$PROJECT_DIR$/Lesson/src/ua/serg/OOP/type/A.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/OOP/Polymorf/App00.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/OOP/TestInterface.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Singleton/TestSingleton.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Singleton/Start.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Jeep.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Porshe.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/RoadType.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/CarSelector.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/NewJeep.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Start.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/interfaces/Car.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Car.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/interfaces/Aircraft.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/interfaces/TransportFactory.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/car/Porshe.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/car/Niva.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/air/Tu134.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/air/Boing747.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/factory/RussianFactory.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/factory/USAFactory.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/Start.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/objects/Component.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/objects/TextView.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/objects/Window.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/decorators/Decorator.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/decorators/BorderDecorator.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/decorators/ColorDecorator.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/Start.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/objects/Printer.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/adapters/PageListPrinter.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/adapters/PrinterAdapter.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/Start.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/objects/Client.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Weel.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Wheel.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Zazhiganie.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Door.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/facade/CarFacade.java" />
+        <option value="$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/object/Client.java" />
       </list>
     </option>
   </component>
@@ -204,6 +271,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -244,41 +312,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="type" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="A.java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Lesson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="serg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OOP" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Construction" />
+              <option name="myItemId" value="Patterns" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -318,7 +352,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,23 +366,30 @@
     <property name="full.screen.before.presentation.mode" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ua.serg.Patterns.Facade" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ua.serg.Patterns.Decorator.objects" />
+      <recent name="ua.serg.Patterns.AbstractFactory.impl.factory" />
+      <recent name="ua.serg.Patterns.AbstractFactory.impl.car" />
+      <recent name="ua.serg.Patterns.FactoryMethod" />
       <recent name="ua.serg.Multithreading.Monitor" />
-      <recent name="ua.serg.Multithreading" />
-      <recent name="ua.serg.Collectons" />
-      <recent name="ua.serg.IO" />
-      <recent name="ua.serg.exception" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitRepos\Lesson\Lesson\src\ua\serg\Patterns\Adapter" />
+      <recent name="D:\GitRepos\Lesson\Lesson\src\ua\serg\Patterns\Decorator" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test1">
-    <configuration default="false" name="App02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Client">
+    <configuration default="false" name="Start" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ua.serg.Multithreading.Monitor.*" />
+          <option name="PATTERN" value="ua.serg.Patterns.Singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ua.serg.Multithreading.Monitor.App02" />
+      <option name="MAIN_CLASS_NAME" value="ua.serg.Patterns.Singleton.Start" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -362,14 +402,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Field" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Start (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ua.serg.Multithreading.RabbitAttack.*" />
+          <option name="PATTERN" value="ua.serg.Patterns.FactoryMethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ua.serg.Multithreading.RabbitAttack.Field" />
+      <option name="MAIN_CLASS_NAME" value="ua.serg.Patterns.FactoryMethod.Start" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -382,14 +422,14 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Test0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Start (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ua.serg.OOP.Construction.*" />
+          <option name="PATTERN" value="ua.serg.Patterns.AbstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ua.serg.OOP.Construction.Test0" />
+      <option name="MAIN_CLASS_NAME" value="ua.serg.Patterns.AbstractFactory.Start" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -402,14 +442,34 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Start (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="ua.serg.OOP.Construction.*" />
+          <option name="PATTERN" value="ua.serg.Patterns.Decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="ua.serg.OOP.Construction.Test1" />
+      <option name="MAIN_CLASS_NAME" value="ua.serg.Patterns.Decorator.Start" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Lesson" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="ua.serg.Patterns.Facade.object.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="ua.serg.Patterns.Facade.object.Client" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -889,19 +949,20 @@
       <envs />
       <method />
     </configuration>
-    <list size="4">
-      <item index="0" class="java.lang.String" itemvalue="Application.App02" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Field" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Test0" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Test1" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.Start" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Start (1)" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Start (2)" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Start (3)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Client" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Test1" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Test0" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Test0" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Field" />
-        <item index="4" class="java.lang.String" itemvalue="Application.App02" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Client" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Start (3)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Start (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Start (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Start" />
       </list>
     </recent_temporary>
   </component>
@@ -960,7 +1021,17 @@
       <workItem from="1464245339101" duration="8535000" />
       <workItem from="1464262362442" duration="2048000" />
       <workItem from="1464332371707" duration="1198000" />
-      <workItem from="1464678156145" duration="215000" />
+      <workItem from="1464678156145" duration="2034000" />
+      <workItem from="1464786394536" duration="1409000" />
+      <workItem from="1465200643645" duration="1830000" />
+      <workItem from="1465288075077" duration="594000" />
+      <workItem from="1465472853246" duration="1934000" />
+      <workItem from="1465543802766" duration="3970000" />
+      <workItem from="1465801744626" duration="1314000" />
+      <workItem from="1465818770725" duration="597000" />
+      <workItem from="1466587269248" duration="195000" />
+      <workItem from="1468227616362" duration="2397000" />
+      <workItem from="1468394424399" duration="14934000" />
     </task>
     <task id="LOCAL-00001" summary="04.02.2016">
       <created>1454677753724</created>
@@ -1016,11 +1087,17 @@
       <option name="project" value="LOCAL" />
       <updated>1464678365405</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="31.05.2016">
+      <created>1464678375496</created>
+      <option name="number" value="00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1464678375496</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177585000" />
+    <option name="totallyTimeSpent" value="208578000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1037,28 +1114,28 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32827735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5021322" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32719395" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32502708" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900432" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15831557" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997833" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32719395" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Dynamic Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1108,7 +1185,8 @@
     <MESSAGE value="18.05.2016" />
     <MESSAGE value="23.05.2016" />
     <MESSAGE value="31.05.2016" />
-    <option name="LAST_COMMIT_MESSAGE" value="31.05.2016" />
+    <MESSAGE value="1307.2016" />
+    <option name="LAST_COMMIT_MESSAGE" value="1307.2016" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1121,265 +1199,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/io/ByteArrayOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.018973215">
-          <caret line="117" column="24" selection-start-line="117" selection-start-column="24" selection-end-line="117" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/IO/App05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.30357143">
-          <caret line="16" column="34" selection-start-line="16" selection-start-column="34" selection-end-line="16" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/IO/App04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22767857">
-          <caret line="12" column="44" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/IO/App03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="19" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/IO/App02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17075893">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/IO/App01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.17075893">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/AbstractSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.008928572">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52566963">
-          <caret line="89" column="17" selection-start-line="89" selection-start-column="12" selection-end-line="89" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/AbstractMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6640625">
-          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325893">
-          <caret line="473" column="11" selection-start-line="473" selection-start-column="11" selection-end-line="473" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/NavigableSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43080357">
-          <caret line="295" column="17" selection-start-line="295" selection-start-column="17" selection-end-line="295" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/TreeSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18080357">
-          <caret line="451" column="7" selection-start-line="451" selection-start-column="7" selection-end-line="451" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Iterable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39285713">
-          <caret line="75" column="9" selection-start-line="75" selection-start-column="9" selection-end-line="75" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81584823">
-          <caret line="143" column="43" selection-start-line="143" selection-start-column="43" selection-end-line="143" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3325893">
-          <caret line="110" column="38" selection-start-line="110" selection-start-column="38" selection-end-line="110" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/dynamycDataStructures/App01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03794643">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2845982">
-          <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/RandomAccess.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81584823">
-          <caret line="66" column="17" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7575419">
-          <caret line="106" column="39" selection-start-line="106" selection-start-column="28" selection-end-line="106" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24692738">
-          <caret line="430" column="0" selection-start-line="430" selection-start-column="0" selection-end-line="430" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/jre/lib/rt.jar!/java/lang/Thread.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Collectons/App00.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6615905">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334">
-          <caret line="281" column="30" selection-start-line="281" selection-start-column="30" selection-end-line="281" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App20.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76988155">
-          <caret line="29" column="0" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App10.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37394246">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28764805">
-          <caret line="10" column="10" selection-start-line="10" selection-start-column="10" selection-end-line="10" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37394246">
-          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App04.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28764805">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App03x.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4314721">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/RunableImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25888324">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App30.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14382403">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/App00.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51602024">
-          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_66/src.zip!/java/util/concurrent/BlockingQueue.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.95784146">
-          <caret line="179" column="17" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/Monitor/Producer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Multithreading/Monitor/Consumer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1454,7 +1273,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1462,10 +1280,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="28" column="15" selection-start-line="28" selection-start-column="15" selection-end-line="28" selection-end-column="15" />
-          <folding>
-            <element signature="e#505#506#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1473,31 +1287,379 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-          <folding>
-            <element signature="docComment;class#A#0" expanded="false" />
-            <element signature="e#103#104#0" expanded="false" />
-            <element signature="e#142#143#0" expanded="false" />
-            <element signature="e#158#159#0" expanded="false" />
-            <element signature="e#199#200#0" expanded="false" />
-            <element signature="class#B#0" expanded="false" />
-            <element signature="e#232#233#0" expanded="false" />
-            <element signature="e#271#272#0" expanded="false" />
-            <element signature="e#287#288#0" expanded="false" />
-            <element signature="e#328#329#0" expanded="false" />
-            <element signature="class#C#0" expanded="false" />
-            <element signature="e#361#362#0" expanded="false" />
-            <element signature="e#400#401#0" expanded="false" />
-            <element signature="e#416#417#0" expanded="false" />
-            <element signature="e#457#458#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/OOP/type/A.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43001688">
-          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/OOP/Polymorf/App00.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/OOP/TestInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <element signature="e#554#555#0" expanded="false" />
+            <element signature="e#596#597#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Singleton/TestSingleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34189945">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Singleton/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2659218">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Jeep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3726813">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding>
+            <element signature="e#157#158#0" expanded="false" />
+            <element signature="e#202#203#0" expanded="false" />
+            <element signature="e#242#243#0" expanded="false" />
+            <element signature="e#285#286#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Porshe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34401348">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/RoadType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17200674">
+          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/NewJeep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43001688">
+          <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="17" selection-end-column="37" />
+          <folding>
+            <element signature="e#150#151#0" expanded="false" />
+            <element signature="e#200#201#0" expanded="false" />
+            <element signature="e#241#242#0" expanded="false" />
+            <element signature="e#286#287#0" expanded="false" />
+            <element signature="e#326#327#0" expanded="false" />
+            <element signature="e#370#371#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/interfaces/Car.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/interfaces/Aircraft.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/air/Tu134.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding>
+            <element signature="e#234#235#0" expanded="false" />
+            <element signature="e#284#285#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/air/Boing747.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#290#291#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/CarSelector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45868465">
+          <caret line="16" column="35" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/car/Porshe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="34" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/FactoryMethod/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/factory/RussianFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45868465">
+          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/car/Niva.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43001688">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/interfaces/TransportFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20067453">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/AbstractFactory/impl/factory/USAFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6306914">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#497#498#0" expanded="false" />
+            <element signature="e#532#533#0" expanded="false" />
+            <element signature="e#586#587#0" expanded="false" />
+            <element signature="e#623#624#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/decorators/BorderDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="e#242#243#0" expanded="false" />
+            <element signature="e#274#275#0" expanded="false" />
+            <element signature="e#319#320#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/decorators/Decorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/decorators/ColorDecorator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3153457">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/objects/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20067453">
+          <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/Start.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45868465">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/objects/TextView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22934233">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#170#171#0" expanded="false" />
+            <element signature="e#217#218#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Decorator/objects/Window.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11467116">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+          <folding>
+            <element signature="e#168#169#0" expanded="false" />
+            <element signature="e#212#213#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/objects/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3153457">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#144#145#0" expanded="false" />
+            <element signature="e#184#185#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/adapters/PageListPrinter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3153457">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/objects/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5733558">
+          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Wheel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#175#176#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Zazhiganie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/parts/Door.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/facade/CarFacade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Facade/object/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lesson/src/ua/serg/Patterns/Adapter/adapters/PrinterAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17142858">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
