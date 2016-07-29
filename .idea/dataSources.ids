@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="Sqlite (Xerial) - AutoShop.db" uuid="5447e504-565d-45bf-b44a-3f8cbd940b78">
+    <database-info product="SQLite" version="3.8.11" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="BrandModels" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="brand_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="model_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_BrandModels_1" columns="model_id" ref-table="spr_Model" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+      <foreign-key name="#FAKE_BrandModels_2" columns="brand_id" ref-table="spr_Brand" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="3" deferrability="1"/>
+    </table>
+    <table name="Car" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="car_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="model_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="transmission_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="privod_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="capacity" sqlType="DOUBLE" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="transport_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_Car_1" columns="transport_id" ref-table="Transport" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="0" deferrability="1"/>
+      <foreign-key name="#FAKE_Car_2" columns="privod_id" ref-table="spr_Privod" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+      <foreign-key name="#FAKE_Car_3" columns="transmission_id" ref-table="spr_Transmission" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+      <foreign-key name="#FAKE_Car_4" columns="model_id" ref-table="spr_Model" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+      <foreign-key name="#FAKE_Car_5" columns="car_type_id" ref-table="spr_CarType" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+    </table>
+    <table name="Motocycle" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="motocycle_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="seat_count" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="transport_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_Motocycle_1" columns="transport_id" ref-table="Transport" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="0" deferrability="1"/>
+      <foreign-key name="#FAKE_Motocycle_2" columns="motocycle_type_id" ref-table="spr_Motocycle_type" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+    </table>
+    <table name="Sale" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="seller_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="sale_date" sqlType="DATE" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="transport_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="description" sqlType="NVARCHAR(500)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_Sale_1" columns="transport_id" ref-table="Transport" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+      <foreign-key name="#FAKE_Sale_2" columns="seller_id" ref-table="Seller" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+    </table>
+    <table name="Seller" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="fio" sqlType="NVARCHAR(200)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="birthday" sqlType="DATE" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="Transport" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="brand_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="price" sqlType="DOUBLE" precision="0" scale="-1" nullable="false" jdbcType="6"/>
+      <column name="issue_year" sqlType="DATE" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="currency_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4" def="MQ=="/>
+      <column name="condition_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="color_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="description" sqlType="NVARCHAR(500)" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="transport_type_id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+      <foreign-key name="#FAKE_Transport_1" columns="transport_type_id" ref-table="spr_TransportType" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+      <foreign-key name="#FAKE_Transport_2" columns="color_id" ref-table="spr_Color" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+      <foreign-key name="#FAKE_Transport_3" columns="condition_id" ref-table="spr_Condition" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+      <foreign-key name="#FAKE_Transport_4" columns="currency_id" ref-table="spr_Currency" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+      <foreign-key name="#FAKE_Transport_5" columns="brand_id" ref-table="spr_Brand" ref-schema="" ref-catalog="" ref-columns="id" update-rule="3" delete-rule="1" deferrability="1"/>
+    </table>
+    <table name="spr_Brand" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_ru" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="spr_CarType" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_ru" sqlType="NVARCHAR" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="spr_Color" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_ru" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="spr_Condition" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_ru" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="spr_Currency" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_ru" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="short_name_ru" sqlType="NVARCHAR(5)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="short_name_en" sqlType="NVARCHAR(5)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="spr_Model" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_ru" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="spr_Motocycle_type" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_ru" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="spr_Privod" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_ru" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="spr_Transmission" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_ru" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="spr_TransportType" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="0" scale="-1" nullable="false" jdbcType="4"/>
+      <column name="name_ru" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name="name_en" sqlType="NVARCHAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <column name=" table_name" sqlType="NVAR(50)" precision="0" scale="-1" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
+      <column name="name" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+      <column name="seq" sqlType="" precision="0" scale="-1" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>
