@@ -18,6 +18,7 @@ public class LessonJDBC {
             String url= "jdbc:sqlite:D:/GitRepos/Lesson/Test_db/AutoShop.db";
             con = DriverManager.getConnection(url);
 
+
             String sql = "SELECT * FROM spr_Model";
             stmt = con.createStatement();
 

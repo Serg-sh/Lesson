@@ -1,0 +1,18 @@
+Query: SELECT * FROM spr_Model
+Result: 
+1, Корола, Corola
+2, РАВ4, RAV4
+3, Пассат, Passat
+
+Query: SELECT * FROM spr_Motocycle_type
+Result: 
+2, Классик, Classic
+3, Спортбайк, Sportbike
+4, Суперспорт, Supersport
+5, Чоппер, Chopper
+
+Query: SELECT *FROM spr_TransportType
+Result: 
+1, Автомобиль, Car
+2, Мотоцикл, Motocycle
+

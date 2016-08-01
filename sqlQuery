@@ -1,0 +1,7 @@
+D:\GitRepos\Lesson\Test_db\AutoShop.db
+SELECT * FROM spr_Model;
+
+SELECT * FROM spr_Motocycle_type;SELECT *
+
+
+FROM spr_TransportType
